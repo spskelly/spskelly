@@ -1,12 +1,12 @@
 # Shawn Skelly
 
-**SDET · Developer tooling · AI-assisted software delivery**
+**Software engineer who builds systems that show their evidence**
 
 I build applications and the tools around them: automated tests, developer utilities, and workflows for implementation, review, and delivery.
 
 My background is enterprise quality engineering. My independent work spans reusable engineering tools, geospatial applications, and local AI systems.
 
-[Portfolio and case studies](https://www.shawnskelly.com/) · Based in western North Carolina
+[Portfolio and case studies](https://shawnskelly.com/) · Based in western North Carolina
 
 ## Start here
 
@@ -31,4 +31,4 @@ My goal is less repeated setup and supervision, without making the resulting sof
 
 ## More work
 
-[Loops](https://github.com/spskelly/loops) explores browser-based walking-route generation, elevation processing, and local persistence. Longer project write-ups are on [my portfolio](https://www.shawnskelly.com/).
+[Loops](https://github.com/spskelly/loops) explores browser-based walking-route generation, elevation processing, and local persistence. Longer project write-ups are on [my portfolio](https://shawnskelly.com/).
