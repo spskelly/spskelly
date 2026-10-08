@@ -26,7 +26,12 @@ The Playwright template is public. The broader kit is still being extracted and 
 ## Recently active
 
 <!-- recent:start -->
-No recent public activity.
+- [TALON](https://shawnskelly.com/projects/talon/), active Sep 2026
+- [Blue Ridge Skyline](https://shawnskelly.com/projects/dark-sky/), active Sep 2026
+- [evalharness](https://shawnskelly.com/projects/evalharness/), active Sep 2026
+- [Diegeist](https://shawnskelly.com/projects/diegeist/), active Sep 2026
+- [GOES-19 Ground Station](https://shawnskelly.com/projects/satellite/), active Sep 2026
+- [Docket Lens](https://shawnskelly.com/projects/docket-lens/), active Sep 2026
 <!-- recent:end -->
 
 ## Engineering approach
