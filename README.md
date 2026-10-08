@@ -19,9 +19,12 @@ My background is enterprise quality engineering, so I write the tests first and 
 
 ## Current focus
 
-I'm packaging the workflow I use to run coding agents into a starter kit: task-based agent orchestration where implementation and review happen in separate sessions, Playwright verification that doubles as user documentation, and repository/deployment configuration.
+Most of what I build now starts from something I already built, so each new project comes together faster than the last.
 
-The Playwright template is public. The broader kit is still being extracted and documented.
+- **Land and sky.** [TALON](https://shawnskelly.com/projects/talon/), a lidar, parcel and terrain platform for 14 western North Carolina counties, was the long, hard build. With that data in place, [Blue Ridge Skyline](https://shawnskelly.com/projects/dark-sky/) went from an idea to a tool I use in the field in a fraction of the time, the [satellite dish siting demo](https://shawnskelly.com/evidence/satellite-siting/) came together quickly, and fog detection for my [GOES-19 ground station](https://shawnskelly.com/projects/satellite/) is in progress on the same terrain.
+- **Code that reads code.** [RepoAudit](https://shawnskelly.com/projects/repoaudit/) audits repositories and [PRISM](https://shawnskelly.com/projects/prism/) watches running software. I'm packaging the workflow I use to run coding agents into a starter kit: task-based orchestration with implementation and review in separate sessions, and Playwright verification that doubles as user documentation. The goal is one loop through the whole development cycle: audit a repo, turn the findings into tasks, let agents work them, keep watching, and report what changed. The [Playwright template](https://github.com/spskelly/playwright-e2e-guides-template) is public; the rest is still being extracted and connected.
+
+Reusing my own work this fast has a cost: code copied between repos drifts apart quietly. I wrote about [checking how my projects actually depend on each other](https://shawnskelly.com/blog/leaning-on-each-other/), and the rule I follow now.
 
 ## Recently active
 
