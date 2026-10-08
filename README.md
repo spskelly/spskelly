@@ -23,6 +23,12 @@ I'm packaging the workflow I use to run coding agents into a starter kit: task-b
 
 The Playwright template is public. The broader kit is still being extracted and documented.
 
+## Recently active
+
+<!-- recent:start -->
+No recent public activity.
+<!-- recent:end -->
+
 ## Engineering approach
 
 Define acceptance criteria before implementation. Use deterministic fixtures and deterministic scoring where possible, and keep the model out of decisions it cannot justify. Keep failure evidence available for diagnosis, distinguish generated artifacts from source, and make limitations explicit.

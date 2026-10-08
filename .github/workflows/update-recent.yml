@@ -1,0 +1,38 @@
+# Refreshes the "Recently active" block in README.md from https://shawnskelly.com/recent.json.
+#
+# Schedule: Mondays 16:00 UTC, after the 9:00 Eastern desktop run and site deploy in both
+# EDT (13:00 UTC) and EST (14:00 UTC). Manual run: Actions tab, "Update recent block", Run workflow.
+# Expected runtime: under a minute. Success: green run; a commit appears only if the text changed.
+# Failure: red run with the reason in the log (fetch error, bad schema, markers missing);
+# the README is left untouched. Tests run first, so a broken script never edits the README.
+name: Update recent block
+
+on:
+  schedule:
+    - cron: "0 16 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm test
+      - run: node scripts/update-recent.mjs
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update recently active block"
+          git push
