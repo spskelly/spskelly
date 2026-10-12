@@ -30,12 +30,12 @@ Reusing my own work this fast has a cost: code copied between repos drifts apart
 ## Recently active
 
 <!-- recent:start -->
-- [TALON](https://shawnskelly.com/projects/talon/), active Sep 2026
-- [Blue Ridge Skyline](https://shawnskelly.com/projects/dark-sky/), active Sep 2026
+- [TALON](https://shawnskelly.com/projects/talon/), active Oct 2026
+- [Blue Ridge Skyline](https://shawnskelly.com/projects/dark-sky/), active Oct 2026
+- [GOES-19 Ground Station](https://shawnskelly.com/projects/satellite/), active Oct 2026
+- [PRISM](https://shawnskelly.com/projects/prism/), active Oct 2026
+- [Salesforce Vector Knowledge](https://shawnskelly.com/projects/salesforce-vector-knowledge/), active Oct 2026
 - [evalharness](https://shawnskelly.com/projects/evalharness/), active Sep 2026
-- [Diegeist](https://shawnskelly.com/projects/diegeist/), active Sep 2026
-- [GOES-19 Ground Station](https://shawnskelly.com/projects/satellite/), active Sep 2026
-- [Docket Lens](https://shawnskelly.com/projects/docket-lens/), active Sep 2026
 <!-- recent:end -->
 
 ## Engineering approach
