@@ -30,7 +30,7 @@ Reusing my own work this fast has a cost: code copied between repos drifts apart
 ## Recently active
 
 <!-- recent:start -->
-- [TALON](https://shawnskelly.com/projects/talon/), active Oct 2026
+- [TALON](https://shawnskelly.com/projects/talon/), active Nov 2026
 - [Blue Ridge Skyline](https://shawnskelly.com/projects/dark-sky/), active Oct 2026
 - [GOES-19 Ground Station](https://shawnskelly.com/projects/satellite/), active Oct 2026
 - [PRISM](https://shawnskelly.com/projects/prism/), active Oct 2026
